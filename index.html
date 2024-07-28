@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Profile README Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>GitHub Profile README Generator</h1>
+    <form id="profileForm">
+      <label for="name">Hi 👋, I'm</label>
+      <input type="text" id="name" name="name" placeholder="Your name">
+
+      <label for="subtitle">Subtitle</label>
+      <input type="text" id="subtitle" name="subtitle" placeholder="A passionate frontend developer from India">
+
+      <label for="work">🔭 I’m currently working on</label>
+      <input type="text" id="work" name="work" placeholder="Project name">
+      <input type="text" id="workLink" name="workLink" placeholder="Project link">
+
+      <label for="collaborate">👯 I’m looking to collaborate on</label>
+      <input type="text" id="collaborate" name="collaborate" placeholder="Project name">
+      <input type="text" id="collaborateLink" name="collaborateLink" placeholder="Project link">
+
+      <label for="help">🤝 I’m looking for help with</label>
+      <input type="text" id="help" name="help" placeholder="Project name">
+      <input type="text" id="helpLink" name="helpLink" placeholder="Project link">
+
+      <label for="learning">🌱 I’m currently learning</label>
+      <input type="text" id="learning" name="learning" placeholder="Frameworks, courses etc.">
+
+      <label for="ask">💬 Ask me about</label>
+      <input type="text" id="ask" name="ask" placeholder="react, vue and gsap">
+
+      <label for="contact">📫 How to reach me</label>
+      <input type="text" id="contact" name="contact" placeholder="example@gmail.com">
+
+      <label for="portfolio">👨‍💻 All of my projects are available at</label>
+      <input type="text" id="portfolio" name="portfolio" placeholder="portfolio link">
+
+      <label for="blog">📝 I regularly write articles on</label>
+      <input type="text" id="blog" name="blog" placeholder="blog link">
+
+      <label for="resume">📄 Know about my experiences</label>
+      <input type="text" id="resume" name="resume" placeholder="resume link">
+
+      <label for="funFact">⚡ Fun fact</label>
+      <input type="text" id="funFact" name="funFact" placeholder="I think I am funny">
+
+      <label for="skills">Skills (comma-separated)</label>
+      <input type="text" id="skills" name="skills" placeholder="javascript, react, node.js">
+
+      <label for="social">Social Links</label>
+      <input type="text" id="github" name="github" placeholder="GitHub username">
+      <input type="text" id="linkedin" name="linkedin" placeholder="LinkedIn username">
+      <input type="text" id="twitter" name="twitter" placeholder="Twitter username">
+      <input type="text" id="devto" name="devto" placeholder="Dev.to username">
+      <input type="text" id="codepen" name="codepen" placeholder="Codepen username">
+
+      <div class="buttons">
+        <button id="generateBtn">Generate README</button>
+        <button id="copyBtn">Copy to Clipboard</button>
+      </div>
+
+      <pre id="readmeOutput"></pre>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
